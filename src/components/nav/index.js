@@ -7,9 +7,9 @@ const Nav = () => {
     <Navbar.Brand href="#home">
       <img
         alt=""
-        src="/logo.svg"
-        width="30"
-        height="30"
+        src="/logo.png"
+        width="319px"
+        height="60px"
         className="d-inline-block align-top"
       />{' '}
       React Bootstrap
