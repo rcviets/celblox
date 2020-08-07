@@ -6,10 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="splashHero">
+    <div className="App">
       <Nav />
+
       <Hero />
-    </div>
+      </div>
+
   );
 }
 

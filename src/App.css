@@ -1,3 +1,15 @@
+body {
+  padding-top: 85px;
+}
+
+.jumbotron {
+  background-image: url(./images/splashHero.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 500px;
+}
+
 .App {
   text-align: center;
 }
