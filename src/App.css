@@ -1,9 +1,10 @@
 body {
   padding-top: 85px;
+  background-color: #a8a8a8;
 }
 
 .jumbotron {
-  background-image: url(./images/splashHero.jpg);
+  background-image: url(./images/splashHero.png);
   background-color: transparent;
   background-repeat: no-repeat, repeat;
   background-size: cover;
