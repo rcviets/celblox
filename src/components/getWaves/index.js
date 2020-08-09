@@ -1,11 +1,19 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
+import Button from 'react-bootstrap/Button';
+import WaveLogo from '../../images/wave.svg';
 import "./style.css";
-import WaveLogo from '../../images/wave.svg'
 
 const Angle = () => {
     return (
-        <Image className="waveImage" src={WaveLogo} fluid />
+        <div>
+            <div className="button">
+                <Button className="buttonLM" size="lg">
+                    Learn More
+                </Button>{' '}
+            </div>
+            <Image className="waveImage" src={WaveLogo} fluid />
+        </div>
     );
 };
 
