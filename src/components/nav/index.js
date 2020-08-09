@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import NavLinks from "../navLinks";
 import "./style.css";
 
-const Navigation = () => {
+const Nav = () => {
     return (
         <div>
             <Navbar fixed="top" bg="light" variant="dark">
@@ -15,27 +15,12 @@ const Navigation = () => {
                         height="60px"
                         className="d-inline-block align-bottom"
                     />{' '}
-                    <h5 className="brandText">The Future Is Coming Together</h5>
+                    <h5 className="brandText">The Future Is Coming Together</h5>{' '}
+                    <NavLinks />
                 </Navbar.Brand>
             </Navbar>
-                <Nav className="justify-content-end" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Active</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1">Link</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2">Link</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="disabled" disabled>
-                            Disabled
-               </Nav.Link>
-                    </Nav.Item>
-                </Nav>
         </div>
     );
 };
 
-export default Navigation;
+export default Nav;

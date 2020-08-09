@@ -1,0 +1,9 @@
+.justify-content-end {
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    z-index: 2;
+    color: black;
+    background-color: black;
+    margin-bottom: -40px;
+}

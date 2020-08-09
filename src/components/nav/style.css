@@ -1,11 +1,9 @@
+.navbar {
+    padding-bottom: 0px;
+}
+
 .brandText{
     color: #451F55;
     float: right;
     margin-top: 33px;
-}
-
-.justify-content-end{
-    margin-top: 10px;
-    z-index: 2;
-
 }
