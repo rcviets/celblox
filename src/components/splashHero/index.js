@@ -8,6 +8,8 @@ const Hero = () => {
     <div className="splashHero">
       <Jumbotron fluid>
         <Container>
+          <h1 className="header1">Sustainable. Durable.</h1>
+          <h1 className="header2">Cost Effective.</h1>
         </Container>
       </Jumbotron>
     </div>

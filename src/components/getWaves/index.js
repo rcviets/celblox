@@ -7,11 +7,11 @@ import "./style.css";
 const Angle = () => {
     return (
         <div>
-            <div className="button">
+            {/* <div className="button">
                 <Button className="buttonLM" size="lg">
                     Learn More
                 </Button>{' '}
-            </div>
+            </div> */}
             <Image className="waveImage" src={WaveLogo} fluid />
         </div>
     );
