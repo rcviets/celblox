@@ -4,16 +4,16 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Nav = () => {
     return (
-            <Navbar fixed="top" bg="dark" variant="dark">
+            <Navbar fixed="top" bg="light" variant="dark">
                 <Navbar.Brand href="#home">
                     <img
                         alt="navbar"
-                        src="/logo.png"
+                        src="/CelBlox_Logo.png"
                         width="319px"
                         height="60px"
                         className="d-inline-block align-bottom"
                     />{' '}
-                    The Future Is Coming Together
+                    <h5 className="brandText">The Future Is Coming Together</h5>
                 </Navbar.Brand>
             </Navbar>
     );
