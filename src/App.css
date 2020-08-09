@@ -11,6 +11,12 @@ body {
   height: 500px;
 }
 
+.angle {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
 .App {
   text-align: center;
 }

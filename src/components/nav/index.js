@@ -7,7 +7,7 @@ const Nav = () => {
             <Navbar fixed="top" bg="light" variant="dark">
                 <Navbar.Brand href="#home">
                     <img
-                        alt="navbar"
+                        alt="celblox logo"
                         src="/CelBlox_Logo.png"
                         width="319px"
                         height="60px"
