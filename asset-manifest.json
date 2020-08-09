@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/%7Bcelblox%7D/static/css/main.2e1a1947.chunk.css",
+    "main.js": "/%7Bcelblox%7D/static/js/main.acaf3b8c.chunk.js",
+    "main.js.map": "/%7Bcelblox%7D/static/js/main.acaf3b8c.chunk.js.map",
+    "runtime-main.js": "/%7Bcelblox%7D/static/js/runtime-main.4b10f42d.js",
+    "runtime-main.js.map": "/%7Bcelblox%7D/static/js/runtime-main.4b10f42d.js.map",
+    "static/css/2.ed439b8d.chunk.css": "/%7Bcelblox%7D/static/css/2.ed439b8d.chunk.css",
+    "static/js/2.fd6a4a51.chunk.js": "/%7Bcelblox%7D/static/js/2.fd6a4a51.chunk.js",
+    "static/js/2.fd6a4a51.chunk.js.map": "/%7Bcelblox%7D/static/js/2.fd6a4a51.chunk.js.map",
+    "index.html": "/%7Bcelblox%7D/index.html",
+    "precache-manifest.05a0097ec58841eb89cdc0bbd5a23e7c.js": "/%7Bcelblox%7D/precache-manifest.05a0097ec58841eb89cdc0bbd5a23e7c.js",
+    "service-worker.js": "/%7Bcelblox%7D/service-worker.js",
+    "static/css/2.ed439b8d.chunk.css.map": "/%7Bcelblox%7D/static/css/2.ed439b8d.chunk.css.map",
+    "static/css/main.2e1a1947.chunk.css.map": "/%7Bcelblox%7D/static/css/main.2e1a1947.chunk.css.map",
+    "static/js/2.fd6a4a51.chunk.js.LICENSE.txt": "/%7Bcelblox%7D/static/js/2.fd6a4a51.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/%7Bcelblox%7D/static/media/splashHero.5e44a554.png",
+    "static/media/wave.svg": "/%7Bcelblox%7D/static/media/wave.89a0298f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b10f42d.js",
+    "static/css/2.ed439b8d.chunk.css",
+    "static/js/2.fd6a4a51.chunk.js",
+    "static/css/main.2e1a1947.chunk.css",
+    "static/js/main.acaf3b8c.chunk.js"
+  ]
+}
