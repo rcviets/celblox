@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="splashHero">
       <Jumbotron fluid>
         <Container>
-          <h1 className="header1">Sustainable. Durable.</h1>
-          <h1 className="header2">Cost Effective.</h1>
+          <h1 className="header1">Insulated Concrete Forms</h1>
+          <h2 className="header2">Sustainable. Durable. Cost Effective.</h2>
           <div className="button">
             <Button className="buttonLM" size="lg">
               Learn More

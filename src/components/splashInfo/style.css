@@ -3,5 +3,10 @@
 }
 
 .card {
-    background-color: #a8a8a8;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #bebebe;
+    z-index: 2;
 }
