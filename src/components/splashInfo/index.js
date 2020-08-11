@@ -12,10 +12,14 @@ const InfoCards = () => {
                     <Card className='mr-5 pt-5'>
                         <Card.Img variant="top" src={require("../../images/contractorCard.svg")} />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title className="card-title">For Your Business</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                            <p><span>&#10003;</span>    Speed of Construction<br />
+                            <span>&#10003;</span>    Consolidation of Trades<br />
+                            <span>&#10003;</span>    HVAC Reduction<br />
+                            <span>&#10003;</span>    Site Contention<br />
+                            <span>&#10003;</span>    Prescriptive Method<br />
+                            <span>&#10003;</span>    Risk Mitigation<br /></p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -25,24 +29,33 @@ const InfoCards = () => {
                     <Card className='mr-5 pt-2'>
                         <Card.Img variant="top" src={require("../../images/customerCard1.svg")} />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title className="card-title">For Your World</Card.Title>
                             <Card.Text>
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
+                            <p><span>&#10003;</span>    100% Recyclable Blox<br />
+                            <span>&#10003;</span>    Made From Recycled Material<br />
+                            <span>&#10003;</span>    Chemical Free Manufacturing<br />
+                            <span>&#10003;</span>    Active C02 Reduction<br />
+                            <span>&#10003;</span>    Energy Efficient Architecture<br />
+                            <span>&#10003;</span>    Conservation of Forests and Wildlife<br /></p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <small className="text-muted">Last updated 3 mins ago</small>
                         </Card.Footer>
                     </Card>
-                    <Card className="pt-2">
+                    <Card className="pt-1">
                         <Card.Img variant="top" src={require("../../images/customerCard2.svg")} />
                         <Card.Body className="pt-3">
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title className="card-title">For Your Home</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            <p><span>&#10003;</span>    Noise Reduction<br />
+                            <span>&#10003;</span>    Save Up To 50% On Utilities<br />
+                            <span>&#10003;</span>    Lower Insurance Premiums<br />
+                              Resistant To:<br />
+                            <span>&#10003;</span>    Fires<br />
+                            <span>&#10003;</span>    Earthquakes<br />
+                            <span>&#10003;</span>    Hurricanes<br />
+                            <span>&#10003;</span>    Tornadoes<br /></p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

@@ -10,7 +10,9 @@ const Hero = () => {
       <Jumbotron fluid>
         <Container>
           <h1 className="header1">Insulated Concrete Forms</h1>
+          <div>
           <h2 className="header2">Sustainable. Durable. Cost Effective.</h2>
+          </div>
           <div className="button">
             <Button className="buttonLM" size="lg">
               Learn More
