@@ -16,7 +16,7 @@ const Nav = () => {
                         className="d-inline-block align-bottom"
                     />{' '}
                     <h5 className="brandText">The Future Is Coming Together</h5>{' '}
-                    <NavLinks />
+                        <NavLinks />    
                 </Navbar.Brand>
             </Navbar>
         </div>
