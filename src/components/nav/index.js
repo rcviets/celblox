@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+import Contaier from "react-bootstrap/Container";
 import NavLinks from "../navLinks";
 import "./style.css";
 
 const Nav = () => {
     return (
-        <div>
+        <Container>
             <Navbar fixed="top" bg="light" variant="dark">
                 <Navbar.Brand href="#home">
                     <img
@@ -19,7 +20,7 @@ const Nav = () => {
                         <NavLinks />    
                 </Navbar.Brand>
             </Navbar>
-        </div>
+        </Container>
     );
 };
 

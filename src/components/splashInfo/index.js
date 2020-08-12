@@ -25,7 +25,7 @@ const InfoCards = () => {
                         </Card.Body>
                         <Card.Footer>
                             <Button className="rounded-0" size="lg" block>
-                                Get Started
+                                Team Up
                             </Button>
                         </Card.Footer>
                     </Card>
@@ -44,7 +44,7 @@ const InfoCards = () => {
                         </Card.Body>
                         <Card.Footer>
                             <Button className="rounded-0" size="lg" block>
-                                Learn More
+                                Get Started
                             </Button>
                         </Card.Footer>
                     </Card>

@@ -9,7 +9,7 @@ const NavLinks = () => {
             <h5 style={{ color: "#451F55" }}>(608) 514-5453</h5>
             </div> */}
             <Nav className="justify-content-end">
-                <Nav.Item className="navLink">
+                <Nav.Item>
                     <Nav.Link eventKey="link-1" style={{ color: "#451F55" }}>Customers</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="navLink">
