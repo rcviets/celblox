@@ -1,9 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import NavLinks from "../navLinks/index";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/Dropdown";
 import "./style.css";
 
 const Navigation = () => {

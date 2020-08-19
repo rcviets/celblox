@@ -1,41 +1,14 @@
-.header1 {
-    position: relative;
-    display: inline;
-    top: 150px;
-    left: -10px;
-    background-color: #BEBEBE;
-    color: #297373;
-    text-shadow: 2px 2px #000000;
-    font-weight: bold;
-}
-.header2 {
-    position: relative;
-    display: inline;
-    top: 150px;
-    left: -15px;
-    background-color: #BEBEBE;
-    color: #297373;
-    text-shadow: 2px 2px #000000;
-    font-weight: bold;
+.splash-hero {
+    background-image: url(../../images/splashHero.png);
+    background-color: transparent;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
 }
 
-.buttonLM {   
-    position: relative;
-    top: 160px;
-    background-color: #451F55;
-    border-color: #451F55;
-    box-shadow: 3px 3px #297373;
-    color: #E6E6E6;
-    z-index: 2;
-}
-.buttonLM:hover {
-    background-color: #297373;
-    border-color: #297373;
-    box-shadow: 3px 3px #451F55;
-    color: #E6E6E6;
-}
-.buttonLM:active{
-    background-color: #E6E6E6 !important;
-    border-color: #451F55 !important;
-    box-shadow: 3px 3px #297373 !important; 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="splash-hero"] {
+        background-image: url(../../images/heroSmall.png);
+    }
 }
