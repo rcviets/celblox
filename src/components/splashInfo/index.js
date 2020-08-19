@@ -7,7 +7,7 @@ import "./style.css";
 
 const InfoCards = () => {
     return (
-        <Container className="splashInfo">
+        <Container className="splash-info">
             <Row>
                 <CardDeck>
                     <Col md={4}>
