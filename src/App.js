@@ -1,24 +1,18 @@
-import React from 'react';
-import Nav from './components/nav';
-import Hero from './components/splashHero';
-import InfoCards from './components/splashInfo'
-import Angle from "./components/getWaves";
-import './App.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Navigation from "./components/nav";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Hero />
-      <div className="angle">
-        <Angle />
-      </div>
-      <div className="splashInfo">
-        <InfoCards />
-      </div>
-    </div>
-
+    <Container fluid>
+      <Row>
+        <Col md={12}>
+          <Navigation />
+        </Col>
+      </Row>
+    </Container>
   );
-}
+};
 
 export default App;

@@ -1,12 +1,4 @@
 .justify-content-end {
-    position: relative;
-    left: 1000px;
-    bottom: 30px;
     z-index: 2;
-    margin-bottom: -50px;
     font-weight: bold;
-}
-
-.nav-link {
-    color: #451F55;
 }

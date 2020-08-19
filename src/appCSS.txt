@@ -1,0 +1,17 @@
+body {
+  background-color: #e6e6e6;
+}
+
+.jumbotron {
+  background-image: url(./images/splashHero.png);
+  background-color: transparent;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+
+}
+
+.angle {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
