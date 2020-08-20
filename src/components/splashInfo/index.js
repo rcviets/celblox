@@ -61,11 +61,12 @@ const InfoCards = () => {
                                     <p><span>&#10003;</span>    Noise Reduction<br />
                                         <span>&#10003;</span>    Save Up To 50% On Utilities<br />
                                         <span>&#10003;</span>    Lower Insurance Premiums<br />
-                                                                    Resistant To:<br />
+                                        <div className="card-description-2">Resistant To:<br />
                                         <span>&#10003;</span>    Fires<br />
                                         <span>&#10003;</span>    Earthquakes<br />
                                         <span>&#10003;</span>    Hurricanes<br />
-                                        <span>&#10003;</span>    Tornadoes<br /></p>
+                                        <span>&#10003;</span>    Tornadoes
+                                        </div></p>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
