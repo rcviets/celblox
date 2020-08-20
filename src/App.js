@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Home from "./pages/home";
+import Products from "./pages/products";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
     <Container>
       <Router>
         <Switch>
+          <Route path="/products">
+            <Products />
+          </Route>
           <Route path="/">
             <Home />
           </Route>

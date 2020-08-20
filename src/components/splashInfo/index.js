@@ -16,12 +16,12 @@ const InfoCards = () => {
                             <Card.Body>
                                 <Card.Title className="card-title">For Your Business</Card.Title>
                                 <Card.Text>
-                                    <p><span>&#10003;</span>    Speed of Construction<br />
-                                        <span>&#10003;</span>    Consolidation of Trades<br />
-                                        <span>&#10003;</span>    HVAC Reduction<br />
-                                        <span>&#10003;</span>    Site Contention<br />
-                                        <span>&#10003;</span>    Prescriptive Method<br />
-                                        <span>&#10003;</span>    Risk Mitigation<br /></p>
+                                    <p>&#10003;    Speed of Construction<br />
+                                        &#10003;   Consolidation of Trades<br />
+                                        &#10003;   HVAC Reduction<br />
+                                        &#10003;   Site Contention<br />
+                                        &#10003;   Prescriptive Method<br />
+                                        &#10003;   Risk Mitigation<br /></p>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -37,12 +37,11 @@ const InfoCards = () => {
                             <Card.Body>
                                 <Card.Title className="card-title">For Your World</Card.Title>
                                 <Card.Text>
-                                    <p><span>&#10003;</span>    100% Recyclable Blox<br />
-                                        <span>&#10003;</span>    Made From Recycled Material<br />
-                                        <span>&#10003;</span>    Chemical Free Manufacturing<br />
-                                        <span>&#10003;</span>    Active C02 Reduction<br />
-                                        <span>&#10003;</span>    Energy Efficient Architecture<br />
-                                        <span>&#10003;</span>    Conservation of Forests and Wildlife<br /></p>
+                                    <p>&#10003;    100% Recyclable Blox<br />
+                                        &#10003;   Chemical Free<br />
+                                        &#10003;   Active C02 Reduction<br />
+                                        &#10003;   Energy Efficient<br />
+                                        &#10003;   Forest Conservation<br /></p>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -58,14 +57,15 @@ const InfoCards = () => {
                             <Card.Body className="pt-3">
                                 <Card.Title className="card-title">For Your Home</Card.Title>
                                 <Card.Text>
-                                    <p><span>&#10003;</span>    Noise Reduction<br />
-                                        <span>&#10003;</span>    Save Up To 50% On Utilities<br />
-                                        <span>&#10003;</span>    Lower Insurance Premiums<br />
+                                    <p>&#10003;    Noise Reduction<br />
+                                        &#10003;   Save Up To 50% On Utilities<br />
+                                        &#10003;   Lower Insurance Premiums<br />
+                                        <br />
                                         <div className="card-description-2">Resistant To:<br />
-                                        <span>&#10003;</span>    Fires<br />
-                                        <span>&#10003;</span>    Earthquakes<br />
-                                        <span>&#10003;</span>    Hurricanes<br />
-                                        <span>&#10003;</span>    Tornadoes
+                                        &#10003;   Fires<br />
+                                        &#10003;   Earthquakes<br />
+                                        &#10003;   Hurricanes<br />
+                                        &#10003;   Tornadoes
                                         </div></p>
                                 </Card.Text>
                             </Card.Body>
