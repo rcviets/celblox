@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     <Router>
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src="/CelBlox_Logo.png"
             width="400"
